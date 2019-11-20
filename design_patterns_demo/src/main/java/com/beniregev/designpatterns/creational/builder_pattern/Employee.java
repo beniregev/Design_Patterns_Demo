@@ -17,6 +17,6 @@ public class Employee {
     private String firstName;
     private String lastname;
     private double salary;
-    //@InjectRandomInt(min=1, max=2)
+    @InjectRandomInt(min=1,max=2)
     private int gender;
 }
