@@ -22,7 +22,7 @@ package com.beniregev.designpatterns.structural.decorator_pattern;
  * The suit class will implement the {@link Gadget} interface, and it will be our base gadget or first gadget.
  *
  */
-public class Main {
+public class DecoratorPatternMain {
 
     public static void main(String[] args) {
         IronMan ironMan = new IronMan();
