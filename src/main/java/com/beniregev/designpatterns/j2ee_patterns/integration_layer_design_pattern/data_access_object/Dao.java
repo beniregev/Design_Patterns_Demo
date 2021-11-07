@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.structural_patterns.data_access_object;
+package com.beniregev.designpatterns.j2ee_patterns.integration_layer_design_pattern.data_access_object;
 
 import java.util.List;
 import java.util.Optional;
