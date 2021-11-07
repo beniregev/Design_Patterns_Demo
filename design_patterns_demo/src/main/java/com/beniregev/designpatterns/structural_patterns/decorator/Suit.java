@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.structural_patterns.decorator_pattern;
+package com.beniregev.designpatterns.structural_patterns.decorator;
 
 public class Suit implements Gadget {
     @Override

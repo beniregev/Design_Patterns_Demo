@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.structural_patterns.decorator_pattern;
+package com.beniregev.designpatterns.structural_patterns.decorator;
 
 /**
  * The decorator design pattern allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.

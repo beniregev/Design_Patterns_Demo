@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.structural_patterns.data_access_object_pattern;
+package com.beniregev.designpatterns.structural_patterns.data_access_object;
 
 import java.util.ArrayList;
 import java.util.List;
