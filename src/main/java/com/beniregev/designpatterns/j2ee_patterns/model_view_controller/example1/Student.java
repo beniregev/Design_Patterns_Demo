@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.j2ee_patterns.model_view_controller;
+package com.beniregev.designpatterns.j2ee_patterns.model_view_controller.example1;
 
 /**
  * <div>
