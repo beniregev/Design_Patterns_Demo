@@ -14,5 +14,4 @@ public class MVCCalculator {
         CalculatorController theController = new CalculatorController(theView,theModel);
         theView.setVisible(true);
     }
-
 }

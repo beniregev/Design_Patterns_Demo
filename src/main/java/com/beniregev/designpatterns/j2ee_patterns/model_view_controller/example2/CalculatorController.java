@@ -14,8 +14,8 @@ import java.awt.event.ActionListener;
  * @author binyamin.regev
  */
 public class CalculatorController {
-    private CalculatorView theView;
-    private CalculatorModel theModel;
+    private final CalculatorView theView;
+    private final CalculatorModel theModel;
 
     public CalculatorController(CalculatorView theView, CalculatorModel theModel) {
         this.theView = theView;
