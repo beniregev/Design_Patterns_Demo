@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.creational_patterns.factory;
+package com.beniregev.designpatterns.creational_patterns.factory.example1;
 
 // This is a factory thats only job is creating ships
 // By encapsulating ship creation, we only have one

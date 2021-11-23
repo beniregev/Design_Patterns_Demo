@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.creational_patterns.factory;
+package com.beniregev.designpatterns.creational_patterns.factory.example1;
 
 public class RocketEnemyShip extends EnemyShip {
 
