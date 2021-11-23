@@ -30,6 +30,7 @@ public class QualifiedStateCodeFactory {
         return qualifiedStateCode;
     }
 
+
     public QualifiedStateCode createQualifiedStateCode(final String qualifiedStateCodeString) {
         String countryCode = null;
         String stateCode = null;

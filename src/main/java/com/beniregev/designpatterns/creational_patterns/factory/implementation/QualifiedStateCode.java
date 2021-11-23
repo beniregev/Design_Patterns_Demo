@@ -4,7 +4,7 @@ package com.beniregev.designpatterns.creational_patterns.factory.implementation;
  * Immutable class for managing string notation for
  * describing a state within a country.
  *
- * @author Brian.Reynolds
+ * @author binyamin.regev
  */
 public class QualifiedStateCode {
 
