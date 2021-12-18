@@ -2,9 +2,18 @@ package com.beniregev.designpatterns.structural_patterns.adapter;
 
 import java.util.Random;
 
-// EnemyTank implements EnemyAttacker perfectly
-// Our job is to make classes with different methods
-// from EnemyAttacker to work with the EnemyAttacker interface
+/**
+ * <div>
+ *     <p>
+ *         {@link EnemyTank} implements {@link EnemyAttacker}
+ *         perfectly. Our job is to make classes with different
+ *         methods from {@link EnemyAttacker} to work with the
+ *         {@link EnemyAttacker} interface.
+ *     </p>
+ * </div>
+ * @author binyamin.regev
+ * @since jdk-1.8.0_162
+ */
 public class EnemyTank implements EnemyAttacker {
     Random generator = new Random();
 

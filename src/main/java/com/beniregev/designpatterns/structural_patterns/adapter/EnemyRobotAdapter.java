@@ -1,13 +1,22 @@
 package com.beniregev.designpatterns.structural_patterns.adapter;
 
-// The Adapter must provide an alternative action for
-// the methods that need to be used because
-// EnemyAttacker was implemented.
-
-// This adapter does this by containing an object
-// of the same type as the Adaptee (EnemyRobot)
-// All calls to EnemyAttacker methods are sent
-// instead to methods used by EnemyRobot
+/**
+ * <div>
+ *     <p>
+ *         The Adapter must provide an alternative action for the
+ *         methods that need to be used because {@link EnemyAttacker}
+ *         was implemented.
+ *     </p>
+ *     <p>
+ *         This adapter does this by containing an object of the same
+ *         type as the Adaptee ({@link EnemyRobot}) All calls to
+ *         {@link EnemyAttacker} methods are sent instead to methods
+ *         used by {@link EnemyRobot}.
+ *     </p>
+ * </div>
+ * @author binyamin.regev
+ * @since jdk-1.8.0_162
+ */
 public class EnemyRobotAdapter implements EnemyAttacker {
     EnemyRobot theRobot;
 

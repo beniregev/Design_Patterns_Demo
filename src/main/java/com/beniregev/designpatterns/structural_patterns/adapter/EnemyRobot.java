@@ -2,9 +2,17 @@ package com.beniregev.designpatterns.structural_patterns.adapter;
 
 import java.util.Random;
 
-// This is the Adaptee. The Adapter sends method calls
-// to objects that use the EnemyAttacker interface
-// to the right methods defined in EnemyRobot
+/**
+ * <div>
+ *     <p>
+ *         The Adapter sends method calls to object(s) that use the
+ *         {@link EnemyAttacker} interface to the right methods
+ *         defined in {@link EnemyRobot}.
+ *     </p>
+ * </div>
+ * @author binyamin.regev
+ * @since jdk-1.8.0_162
+ */
 public class EnemyRobot {
     Random generator = new Random();
 
