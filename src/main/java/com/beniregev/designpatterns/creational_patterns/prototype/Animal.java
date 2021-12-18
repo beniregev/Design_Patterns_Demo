@@ -1,7 +1,5 @@
 package com.beniregev.designpatterns.creational_patterns.prototype;
 
-//
-
 /**
  * <div>
  *     <p>
@@ -17,5 +15,4 @@ package com.beniregev.designpatterns.creational_patterns.prototype;
  */
 public interface Animal extends Cloneable {
     public Animal makeCopy();
-
 }
