@@ -3,7 +3,21 @@ package com.beniregev.designpatterns.structural_patterns.facade;
 /**
  * <div>
  *     <p>
- *         Welcome to may Facade Design Pattern Tutorial! The Facade
+ *         When you create a simplified interface that performs many
+ *         other actions behind the scenes.
+ *         <ul>
+ *             Can I withdraw 50 USD from the bank?
+ *             <li>Check: is the account correct?</li>
+ *             <li>Check: is the account valid?</li>
+ *             <li>Check: is the security code correct?</li>
+ *             <li>Check: is the security code valid?</li>
+ *             <li>Check: is the account balance enough?</li>
+ *             <li>Make changes accordingly.</li>
+ *             <li></li>
+ *         </ul>
+ *     </p>
+ *     <p>
+ *         Welcome to may Facade Design Pattern Example! The Facade
  *         pattern is extremely easy to understand. Chances are you
  *         have used it already and just didn't know it.
  *     </p>
