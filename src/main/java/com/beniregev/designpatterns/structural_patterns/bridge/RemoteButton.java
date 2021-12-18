@@ -1,9 +1,15 @@
 package com.beniregev.designpatterns.structural_patterns.bridge;
 
-// Abstraction
-
-// This is an abstract class that will represent numerous
-// ways to work with each device
+/**
+ * <div>
+ *     <p>Abstraction</p>
+ *     <p>
+ *         This is an abstract class that will represent numerous ways to work with each device
+ *     </p>
+ * </div>
+ * @author binyamin.regev
+ * @since jdk-1.8.0_162
+ */
 public abstract class RemoteButton {
     // A reference to a generic device using aggregation
 

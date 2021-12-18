@@ -1,8 +1,13 @@
 package com.beniregev.designpatterns.structural_patterns.bridge;
 
-// Refined Abstraction
-//
-// If I decide I want to further extend the remote I can
+/**
+ * <div>
+ *     <p>Refined Abstraction</p>
+ *     <p>If I decide I want to further extend the remote I can</p>
+ * </div>
+ * @author binyamin.regev
+ * @since jdk-1.8.0_162
+ */
 public class TVRemotePause extends RemoteButton {
     public TVRemotePause(EntertainmentDevice newDevice) {
         super(newDevice);
