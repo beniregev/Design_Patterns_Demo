@@ -18,13 +18,13 @@ public class TVDevice extends EntertainmentDevice {
         maxSetting = newMaxSetting;
     }
 
-    public void buttonFivePressed() {
-        System.out.println("Channel Down");
+    public void buttonSevenPressed() {
+        System.out.println(this.getClass().getSimpleName() + " --> Channel Down");
         deviceState--;
     }
 
-    public void buttonSixPressed() {
-        System.out.println("Channel Up");
+    public void buttonNinePressed() {
+        System.out.println(this.getClass().getSimpleName() + " --> Channel Up");
         deviceState++;
     }
 }

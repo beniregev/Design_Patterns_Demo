@@ -21,17 +21,17 @@ public class DVDDevice extends EntertainmentDevice {
 
     }
 
-    public void buttonFivePressed() {
+    public void buttonSevenPressed() {
 
-        System.out.println("DVD Skips to Chapter");
+        System.out.println(this.getClass().getSimpleName() + " --> DVD Skips to Chapter");
 
         deviceState--;
 
     }
 
-    public void buttonSixPressed() {
+    public void buttonNinePressed() {
 
-        System.out.println("DVD Skips to Next Chapter");
+        System.out.println(this.getClass().getSimpleName() + " --> DVD Skips to Next Chapter");
 
         deviceState++;
 

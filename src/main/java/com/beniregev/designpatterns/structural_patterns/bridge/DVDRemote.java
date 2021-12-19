@@ -25,8 +25,8 @@ public class DVDRemote extends RemoteButton {
         super(newDevice);
     }
 
-    public void buttonNinePressed() {
+    public void buttonEightPressed() {
         play = !play;
-        System.out.println("DVD is Playing: " + play);
+        System.out.println(this.getClass().getSimpleName() + " --> DVD is Playing: " + play);
     }
 }

@@ -15,9 +15,7 @@ public class TVRemoteMute extends RemoteButton {
         super(newDevice);
     }
 
-    public void buttonNinePressed() {
-
-        System.out.println("TV was Muted");
-
+    public void buttonEightPressed() {
+        System.out.println(this.getClass().getSimpleName() + " --> TV was Muted");
     }
 }

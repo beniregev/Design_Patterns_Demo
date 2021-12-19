@@ -13,9 +13,7 @@ public class TVRemotePause extends RemoteButton {
         super(newDevice);
     }
 
-    public void buttonNinePressed() {
-
-        System.out.println("TV was Paused");
-
+    public void buttonEightPressed() {
+        System.out.println(this.getClass().getSimpleName() + " --> TV was Paused");
     }
 }

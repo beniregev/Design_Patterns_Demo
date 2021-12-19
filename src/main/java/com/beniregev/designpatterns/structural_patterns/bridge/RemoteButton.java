@@ -16,29 +16,21 @@ public abstract class RemoteButton {
     private EntertainmentDevice theDevice;
 
     public RemoteButton(EntertainmentDevice newDevice){
-
         theDevice = newDevice;
-
     }
 
-    public void buttonFivePressed() {
-
-        theDevice.buttonFivePressed();
-
+    public void buttonSevenPressed() {
+        theDevice.buttonSevenPressed();
     }
 
-    public void buttonSixPressed() {
-
-        theDevice.buttonSixPressed();
-
+    public void buttonNinePressed() {
+        theDevice.buttonNinePressed();
     }
 
     public void deviceFeedback(){
-
         theDevice.deviceFeedback();
-
     }
 
-    public abstract void buttonNinePressed();
+    public abstract void buttonEightPressed();
 
 }

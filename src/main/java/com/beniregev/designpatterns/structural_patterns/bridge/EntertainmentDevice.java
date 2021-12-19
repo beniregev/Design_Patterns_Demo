@@ -10,7 +10,28 @@ package com.beniregev.designpatterns.structural_patterns.bridge;
  *         abstract class that will represent different types of
  *         remote controls.
  *     </p>
- *     <p>This allows me to use an infinite variety of devices and remotes</p>
+ *     <p>
+ *         This allows me to use an infinite variety of devices and remotes
+ *     </p>
+ *     <pre>
+ * +---------------------------------------+
+ * |                                       |
+ * |               +-------+               |
+ * |               | Power |               |
+ * |               +-------+               |
+ * |     +---+   +---+   +---+   +---+     |
+ * |     | 1 |   | 2 |   | 3 |   | 4 |     |
+ * |     +---+   +---+   +---+   +---+     |
+ * |                 +---+                 |
+ * |                 | 5 |                 |
+ * |             +---+---+---+             |
+ * |             | 7 | 8 | 9 |             |
+ * |             +---+---+---+             |
+ * |                 | 6 |                 |
+ * |                 +---+                 |
+ * |                                       |
+ * +---------------------------------------+
+ *     </pre>
  * </div>
  * @author binyamin.regev
  * @since jdk-1.8.0_162
@@ -20,23 +41,22 @@ abstract class EntertainmentDevice {
     public int maxSetting;
     public int volumeLevel = 0;
 
-    public abstract void buttonFivePressed();
-
-    public abstract void buttonSixPressed();
+    public abstract void buttonSevenPressed();
+    public abstract void buttonNinePressed();
 
     public void deviceFeedback() {
         if (deviceState > maxSetting || deviceState < 0) {
             deviceState = 0;
         }
-        System.out.println("On Channel " + deviceState);
+        System.out.println(this.getClass().getSimpleName() + " --> On Channel " + deviceState);
     }
 
-    public void buttonSevenPressed() {
+    public void buttonFivePressed() {
         volumeLevel++;
         System.out.println("Volume at: " + volumeLevel);
     }
 
-    public void buttonEightPressed() {
+    public void buttonSixPressed() {
         volumeLevel--;
         System.out.println("Volume at: " + volumeLevel);
     }
