@@ -29,7 +29,7 @@ public class StockGrabber implements Subject {
     public void notifyObserver() {
         ////  Before Java 8
         //for (Observer observer : observers) {
-        //    observer.update(ibmPrice, aaplPrice, googPrice);
+        //    observer.update(ibmPrice, applePrice, googlePrice);
         //}
 
         //  With Java 8 Stream API
@@ -41,13 +41,13 @@ public class StockGrabber implements Subject {
         notifyObserver();
     }
 
-    public void setAaplPrice(double aaplPrice) {
-        this.aaplPrice = aaplPrice;
+    public void setApplePrice(double applePrice) {
+        this.aaplPrice = applePrice;
         notifyObserver();
     }
 
-    public void setGoogPrice(double googPrice) {
-        this.googPrice = googPrice;
+    public void setGooglePrice(double googlePrice) {
+        this.googPrice = googlePrice;
         notifyObserver();
     }
 }

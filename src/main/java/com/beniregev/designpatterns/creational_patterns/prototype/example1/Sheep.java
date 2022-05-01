@@ -1,4 +1,4 @@
-package com.beniregev.designpatterns.creational_patterns.prototype;
+package com.beniregev.designpatterns.creational_patterns.prototype.example1;
 
 public class Sheep implements Animal {
     public Sheep() {

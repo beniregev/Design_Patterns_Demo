@@ -34,9 +34,9 @@ public class GetTheStock implements Runnable {
             if (stock == "IBM")
                 ((StockGrabber)stockGrabber).setIbmPrice(price);
             else if (stock == "AAPL")
-                ((StockGrabber)stockGrabber).setAaplPrice(price);
+                ((StockGrabber)stockGrabber).setApplePrice(price);
             else if (stock == "GOOG")
-                ((StockGrabber)stockGrabber).setGoogPrice(price);
+                ((StockGrabber)stockGrabber).setGooglePrice(price);
             System.out.println(stock + ": " + df.format(price + randNum) + " " +
                     df.format(randNum) + "\n");
         }
